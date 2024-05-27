@@ -1,0 +1,25 @@
+*{
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(25, 144, 255);
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(170,25,2);
+}
+form {
+    margin: 25px 0 20px;
+    padding: 25px 20px ;
+    text-align: center;
+    margin-top: 100px;
+}
+button {
+    background-color: rgb(150,2,2);
+    color: rgb(5,255,25);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
