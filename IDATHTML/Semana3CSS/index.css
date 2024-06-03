@@ -1,0 +1,25 @@
+.padre{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background:chartreuse;
+    display:flex;
+    flex-direction: row;
+    flex-direction:wrap;
+    justify-content: center;
+}
+.padre div{
+    height: 150px;
+    background-color: blue;
+    margin: 5px;
+}
+.uno{
+    flex:1;
+    /* width:200px; */
+    flex-basis: 200px;
+}
+.dos{
+    flex:2;
+    /* width: 200px; */
+    flex-basis: 300px;
+}
