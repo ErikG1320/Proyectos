@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("S3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32fd587b726fd072a4b7c35112adb2870ed748ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0fa4246fda23bbb49cc38d29ae7f66f4d16ed95")]
 [assembly: System.Reflection.AssemblyProductAttribute("S3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("S3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
