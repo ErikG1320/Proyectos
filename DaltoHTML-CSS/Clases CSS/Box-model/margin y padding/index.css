@@ -1,0 +1,10 @@
+.formulario {
+    background:red;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.formulario_input {
+    padding:10px;
+}
