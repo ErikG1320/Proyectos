@@ -1,0 +1,24 @@
+div{
+    background:red;
+    width:150px;
+    margin:auto;
+    text-align: center;
+}
+div{
+    border-width:2px;
+    border-color: aqua;
+    border-style:solid;
+    /* border-style:dashed; */
+    /* border-style:dotted; */
+    /* border-style:double; */
+    /* border-style:groove; */
+    /* border-style:ridge; */
+    /* border-style:inset; */
+    /* border-style:outset; */
+    /* border-style:none; */
+    /* border-style:hidden; */
+    /* border-style:inherit; */
+    /* border-style:initial; */
+    /* border-style:unset; */
+    border-radius:8px;
+}
