@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\ErikG\\Desktop\\Proyectos\\Pruebas.net\\wwwroot\\downloads\\Prueba.pdf",
+      "PackagePath": "staticwebassets\\downloads\\Prueba.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ErikG\\Desktop\\Proyectos\\Pruebas.net\\wwwroot\\downloads\\pdfnotfound.pdf",
+      "PackagePath": "staticwebassets\\downloads\\pdfnotfound.pdf"
+    },
+    {
       "Id": "C:\\Users\\ErikG\\Desktop\\Proyectos\\Pruebas.net\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

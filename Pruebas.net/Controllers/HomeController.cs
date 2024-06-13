@@ -1,25 +1,47 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Pruebas.net.Models;
-
 namespace Pruebas.net.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private IHostEnvironment _env;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(IHostEnvironment env, ILogger<HomeController> logger)
     {
+        _env = env;
         _logger = logger;
     }
+    private readonly ILogger<HomeController> _logger;
 
+    // public HomeController(ILogger<HomeController> logger)
+    // {
+    //     _logger = logger;
+    // }
+    public FileStreamResult pdf()
+{
+    var path = Path.Combine(_env.ContentRootPath, "wwwroot/downloads", "Prueba.pdf");
+    var path404=Path.Combine(_env.ContentRootPath,"wwwrrot/downloads","pdfnotfound.pdf");
+    if (System.IO.File.Exists(path))
+    {
+        return new FileStreamResult(new FileStream(path, FileMode.Open), "application/pdf");
+    }
+    else
+    {
+            return new FileStreamResult(new FileStream(path, FileMode.Open), "application/pdf");
+    }
+}
     public IActionResult Index()
     {
         return View();
     }
-    public string HolaMundo()
+    public ViewResult Acerca()
     {
-        return "Hola Mundo";
+        return View();
+    }
+    public string HolaMundo(string nombre)
+    {
+        return "Hola " + nombre;
     }
     public IActionResult Privacy()
     {

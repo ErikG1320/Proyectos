@@ -48,6 +48,11 @@ header{
     background-color: aqua;
     padding: 30px 0; /* Espaciado vertical */
 }
+.fundamentos{
+    background-color: magenta;
+    display:flex;
+    align-items: center;
+}
 .cod{
     width:200px;
     height:200px;
@@ -58,11 +63,7 @@ header{
     text-align: center;
     padding:15px;
     margin: 10px 15px; /* Espacio horizontal entre los párrafos */
-    align-items:items;
-}
-.fundamentos{
-    background-color: magenta;
-    display:flex;
+    align-items:center;
 }
 .carreras1{
     background-color:chartreuse;
@@ -72,39 +73,74 @@ header{
     align-items: center; /* Centra los elementos verticalmente */
     width:100%;
     height:auto;
-}
-.container-1{
-    background-color:aliceblue;
-    width:400px;
-    height:450px;
-    /* margin:10px 0 0 0; */
-    display:flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items:center
-}
-.container-2{
-    background-color:aliceblue;
-    width:400px;
-    height:450px;
-    margin:10px 10px 10px 10px;
-    display:flex;
-    justify-content: center; /* Centra horizontalmente */
-    /* align-items:baseline; */
+    padding: 20px;
+    gap: 20px;
 }
 
-.container-3{
-    background-color:aliceblue;
-    width:400px;
-    height:450px;
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    /* align-items:baseline; */
+
+.card-text{
+    text-align: center;
 }
-img{
-    width:200px;
-    height:auto;
-    margin:10px 0 0 0;
-    border:1px solid;
-    object-fit:cover;
-    align-items: center;
+
+/* .card {
+    width: 400px;
+    margin: 10px;
+} */
+
+/* .card img{ */
+    /* width: 100%;
+    height: auto;
+    margin: 10px;
+    display: flex; */
+
+.card-body {
+    text-align:center;
+    background-color: aliceblue;
+}
+
+
+.carreras2 {
+    background-color: rgb(187, 140, 240);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .container-1,
+  .container-2,
+  .container-3,
+  .container-4,
+  .container-5,
+  .container-6,
+  .container-7 {
+    width: 300px; 
+    margin: 30px;
+  }
+
+  .card {
+    width: 100%; 
+    margin: 20px;
+  }
+
+  .card-img-top {
+    width: calc(100% - 40px); /* El ancho de la imagen es el 100% del ancho de la tarjeta menos el espacio del margen */
+    height: auto;
+    margin: 20px; /* Margen alrededor de la imagen */
+  }
+
+  @media (max-width: 991.98px){
+    .navbar-nav{
+        flex-direction: column;
+    }
+    .nav-item{
+        text-align:center;
+    }
+}
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width:100%;
 }
