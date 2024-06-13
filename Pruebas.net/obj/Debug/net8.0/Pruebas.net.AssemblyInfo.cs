@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pruebas.net")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5459d595d383a71648b29e8ffb53cce81e40ed02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2085a22ff749cd431f60b963395744140c44351c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pruebas.net")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pruebas.net")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
