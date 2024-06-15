@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Pruebas.net")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("DB.net")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e25fdf63c4b7720603f3c3069c9a067c72724662")]
-[assembly: System.Reflection.AssemblyProductAttribute("Pruebas.net")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Pruebas.net")]
+[assembly: System.Reflection.AssemblyProductAttribute("DB.net")]
+[assembly: System.Reflection.AssemblyTitleAttribute("DB.net")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
