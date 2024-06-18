@@ -150,6 +150,9 @@
       "BusinessLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DataAccess": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BusinessLayer.dll": {}
         },
@@ -510,11 +513,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\PresentationLayer\\PresentationLayer.csproj",
+      "projectUniqueName": "c:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\PresentationLayer\\PresentationLayer.csproj",
       "projectName": "PresentationLayer",
-      "projectPath": "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\PresentationLayer\\PresentationLayer.csproj",
+      "projectPath": "c:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\PresentationLayer\\PresentationLayer.csproj",
       "packagesPath": "C:\\Users\\ErikG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\PresentationLayer\\obj\\",
+      "outputPath": "c:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\PresentationLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -536,11 +539,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\BusinessLayer\\BusinessLayer.csproj"
+            "c:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "c:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\BusinessLayer\\BusinessLayer.csproj"
             },
-            "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj"
+            "c:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "c:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj"
             }
           }
         }

@@ -4,3 +4,10 @@ C:\Users\ErikG\Desktop\Proyectos\CRUD_MVC_NCAPAS\DataAccess\obj\Debug\net8.0\Dat
 C:\Users\ErikG\Desktop\Proyectos\CRUD_MVC_NCAPAS\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
 C:\Users\ErikG\Desktop\Proyectos\CRUD_MVC_NCAPAS\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\ErikG\Desktop\Proyectos\CRUD_MVC_NCAPAS\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
+C:\Users\ErikG\Desktop\Proyectos\CRUD_MVC_NCAPAS\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\ErikG\Desktop\Proyectos\CRUD_MVC_NCAPAS\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\ErikG\Desktop\Proyectos\CRUD_MVC_NCAPAS\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\ErikG\Desktop\Proyectos\CRUD_MVC_NCAPAS\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\ErikG\Desktop\Proyectos\CRUD_MVC_NCAPAS\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\ErikG\Desktop\Proyectos\CRUD_MVC_NCAPAS\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\ErikG\Desktop\Proyectos\CRUD_MVC_NCAPAS\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll

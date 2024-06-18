@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ErikG\\Desktop\\Proyectos\\DB.net\\DB.net.csproj": {}
+    "c:\\Users\\ErikG\\Desktop\\Proyectos\\DB.net\\DB.net.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ErikG\\Desktop\\Proyectos\\DB.net\\DB.net.csproj": {
+    "c:\\Users\\ErikG\\Desktop\\Proyectos\\DB.net\\DB.net.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ErikG\\Desktop\\Proyectos\\DB.net\\DB.net.csproj",
+        "projectUniqueName": "c:\\Users\\ErikG\\Desktop\\Proyectos\\DB.net\\DB.net.csproj",
         "projectName": "DB.net",
-        "projectPath": "C:\\Users\\ErikG\\Desktop\\Proyectos\\DB.net\\DB.net.csproj",
+        "projectPath": "c:\\Users\\ErikG\\Desktop\\Proyectos\\DB.net\\DB.net.csproj",
         "packagesPath": "C:\\Users\\ErikG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ErikG\\Desktop\\Proyectos\\DB.net\\obj\\",
+        "outputPath": "c:\\Users\\ErikG\\Desktop\\Proyectos\\DB.net\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

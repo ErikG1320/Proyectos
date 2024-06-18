@@ -1,7 +1,16 @@
+using BusinessLayer;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+string? connectionString =builder.Configuration.GetConnectionString("DefaultConnection");
+
+if(connectionString!=null)
+{
+    builder.Services.AddScoped<ProductoService>(provider => new ProductoService(connectionString));
+}
 
 var app = builder.Build();
 
