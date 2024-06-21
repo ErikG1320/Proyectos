@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Data.SqlClient;
 
 namespace DataAccess
@@ -9,7 +5,6 @@ namespace DataAccess
     public class ProductoData
     {
         private readonly string _connectionString;
-
         public ProductoData(string connectionString)
         {
             _connectionString = connectionString;

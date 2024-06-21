@@ -6,5 +6,8 @@
     "dotnet.help.firstView": "gettingStarted",
     "dotnet.implementType.insertionBehavior": "atTheEnd",
     "dotnet.server.useOmnisharp": true,
-    "editor.fontSize": 15
+    "editor.fontSize": 15,
+    "java.project.sourcePaths": [
+        "Semana6/crudrapido/src/main/java/com/example/crudrapido"
+    ]
 }

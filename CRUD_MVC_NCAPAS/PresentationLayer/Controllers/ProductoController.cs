@@ -10,8 +10,8 @@ namespace PresentationLayer.Controllers
 
         public IActionResult Index()
         {
-            var productos = _productoService.GetAllProductos();
-            return View(productos);
+            var Productos = _productoService.GetAllProductos();
+            return View(Productos);
         }
         public IActionResult Create()
         {

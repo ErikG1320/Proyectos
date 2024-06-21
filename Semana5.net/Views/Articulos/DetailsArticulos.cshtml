@@ -1,0 +1,54 @@
+﻿@model PrjBDVentas2023CRUD.Models.Articulos
+
+@{
+    ViewData["Title"] = "DetailsArticulos";
+}
+
+<h2>DetailsArticulos</h2>
+
+<div>
+    <h4>Articulos</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CodArt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CodArt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NomArt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomArt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.UniMed)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.UniMed)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PreArt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PreArt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StkArt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StkArt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EliArt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EliArt)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="IndexArticulos">Back to List</a>
+</div>

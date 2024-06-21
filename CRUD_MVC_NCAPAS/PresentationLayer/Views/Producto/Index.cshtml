@@ -1,5 +1,5 @@
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Lista de Produtos";
 }
 @model List<DataAccess.Producto>
 
@@ -20,7 +20,6 @@
             <th>Descripcion</th>
             <th>Fecha</th>
             <th>Opciones de administrador</th>
-
         </tr>
     </thead>
     <tbody>
@@ -35,10 +34,10 @@
                 <td>@item.Descripcion</td>
                 <td>@item.Fecha</td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Editar</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-warning">Detalles</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Eliminar</a>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
                 </td>
             </tr>
         }
-    }
+    </tbody>
+</table>

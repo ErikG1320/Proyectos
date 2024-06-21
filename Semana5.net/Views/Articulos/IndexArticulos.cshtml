@@ -1,0 +1,66 @@
+﻿@model IEnumerable<PrjBDVentas2023CRUD.Models.Articulos>
+
+@{
+    ViewData["Title"] = "IndexArticulos";
+}
+
+<h2>IndexArticulos</h2>
+
+<p>
+    <a asp-action="CreateArticulos">Nuevo Articulo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CodArt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NomArt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UniMed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PreArt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StkArt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EliArt)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodArt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomArt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UniMed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PreArt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StkArt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EliArt)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Detalle", "DetailsArticulos", 
+                    new { id = item.CodArt }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
