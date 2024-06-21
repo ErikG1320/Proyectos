@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ErikG\\Desktop\\Proyectos\\asp.netEVC1\\asp.netEVC1.csproj": {}
+    "C:\\Users\\ErikG\\Desktop\\Proyectos\\asp.netEVC1\\asp.netEVC1.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ErikG\\Desktop\\Proyectos\\asp.netEVC1\\asp.netEVC1.csproj": {
+    "C:\\Users\\ErikG\\Desktop\\Proyectos\\asp.netEVC1\\asp.netEVC1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ErikG\\Desktop\\Proyectos\\asp.netEVC1\\asp.netEVC1.csproj",
+        "projectUniqueName": "C:\\Users\\ErikG\\Desktop\\Proyectos\\asp.netEVC1\\asp.netEVC1.csproj",
         "projectName": "asp.netEVC1",
-        "projectPath": "c:\\Users\\ErikG\\Desktop\\Proyectos\\asp.netEVC1\\asp.netEVC1.csproj",
+        "projectPath": "C:\\Users\\ErikG\\Desktop\\Proyectos\\asp.netEVC1\\asp.netEVC1.csproj",
         "packagesPath": "C:\\Users\\ErikG\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ErikG\\Desktop\\Proyectos\\asp.netEVC1\\obj\\",
+        "outputPath": "C:\\Users\\ErikG\\Desktop\\Proyectos\\asp.netEVC1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

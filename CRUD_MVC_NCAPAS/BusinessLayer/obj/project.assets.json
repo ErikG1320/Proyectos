@@ -494,11 +494,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "c:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\BusinessLayer\\BusinessLayer.csproj",
+      "projectPath": "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\BusinessLayer\\BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\ErikG\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\BusinessLayer\\obj\\",
+      "outputPath": "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -520,8 +520,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "c:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj"
             }
           }
         }
