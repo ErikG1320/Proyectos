@@ -18,8 +18,8 @@ namespace DataAccess
                 using (SqlConnection connection = new SqlConnection(_connectionString))
                 {
                     string query = "SELECT Id,Nombre,Marca,Cantidad,Precio,Descripcion,Fecha FROM Productos";
-                    SqlCommand command = new SqlCommand(query, connection);
                     connection.Open();
+                    SqlCommand command = new SqlCommand(query, connection);
                     SqlDataReader reader = command.ExecuteReader();
                     while (reader.Read())
                     {

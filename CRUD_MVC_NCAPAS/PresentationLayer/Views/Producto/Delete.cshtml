@@ -48,7 +48,10 @@
     </dl>
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Eliminar Producto" class="btn btn-danger"/>
+        <input type="submit" value="Eliminar Producto" class="btn btn-danger" onclick="return confirm('Estas seguro de eliminar el articulo')"/>
         <a asp-action="Index" class="btn btn-primary">Cancelar</a>
     </form>
+    <div>
+        <b>@ViewBag.mensaje</b>
+    </div>
 </div>
