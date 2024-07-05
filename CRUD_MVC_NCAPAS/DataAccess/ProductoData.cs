@@ -137,7 +137,7 @@ namespace DataAccess
                     connection.Open();
                     int result = command.ExecuteNonQuery();
 
-                    // Puedes verificar si la actualización fue exitosa basándote en el resultado
+                    // Paso para verificar si la actualización fue exitosa basándote en el resultado
                     if (result > 0)
                     {
                         Console.WriteLine("Producto actualizado con éxito.");

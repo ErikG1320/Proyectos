@@ -9,5 +9,7 @@
     "editor.fontSize": 15,
     "java.project.sourcePaths": [
         "Semana6/crudrapido/src/main/java/com/example/crudrapido"
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.configuration.updateBuildConfiguration": "interactive"
 }

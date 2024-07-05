@@ -3778,32 +3778,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ErikG\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\gerik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ErikG\\Desktop\\Proyectos\\DB.net\\DB.net.csproj",
+      "projectUniqueName": "C:\\Users\\gerik\\Escritorio\\Proyectos\\DB.net\\DB.net.csproj",
       "projectName": "DB.net",
-      "projectPath": "c:\\Users\\ErikG\\Desktop\\Proyectos\\DB.net\\DB.net.csproj",
-      "packagesPath": "C:\\Users\\ErikG\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ErikG\\Desktop\\Proyectos\\DB.net\\obj\\",
+      "projectPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\DB.net\\DB.net.csproj",
+      "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\DB.net\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ErikG\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

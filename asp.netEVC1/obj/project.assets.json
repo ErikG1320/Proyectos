@@ -8,32 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ErikG\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\gerik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ErikG\\Desktop\\Proyectos\\asp.netEVC1\\asp.netEVC1.csproj",
+      "projectUniqueName": "C:\\Users\\gerik\\Escritorio\\Proyectos\\asp.netEVC1\\asp.netEVC1.csproj",
       "projectName": "asp.netEVC1",
-      "projectPath": "c:\\Users\\ErikG\\Desktop\\Proyectos\\asp.netEVC1\\asp.netEVC1.csproj",
-      "packagesPath": "C:\\Users\\ErikG\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ErikG\\Desktop\\Proyectos\\asp.netEVC1\\obj\\",
+      "projectPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\asp.netEVC1\\asp.netEVC1.csproj",
+      "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\asp.netEVC1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ErikG\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

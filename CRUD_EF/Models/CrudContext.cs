@@ -6,9 +6,6 @@ namespace CRUD_EF.Models;
 
 public partial class CrudContext : DbContext
 {
-    public CrudContext()
-    {
-    }
 
     public CrudContext(DbContextOptions<CrudContext> options)
         : base(options)
@@ -19,15 +16,15 @@ public partial class CrudContext : DbContext
 
     public virtual DbSet<Pedido> Pedidos { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=localhost;database=CRUD;Integrated Security=True;TrustServerCertificate=True;");
+//     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+// #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+//         => optionsBuilder.UseSqlServer("Server=localhost;Database=CRUD;Trusted_Connection=True;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Cliente>(entity =>
         {
-            entity.HasKey(e => e.Clienteid).HasName("PK__Cliente__71A8D4BF8A089379");
+            entity.HasKey(e => e.ClienteId).HasName("PK__Cliente__71ABD0872F6FFD56");
 
             entity.ToTable("Cliente");
 
@@ -41,7 +38,7 @@ public partial class CrudContext : DbContext
 
         modelBuilder.Entity<Pedido>(entity =>
         {
-            entity.HasKey(e => e.PedidoId).HasName("PK__Pedido__09BA143017367EAF");
+            entity.HasKey(e => e.PedidoId).HasName("PK__Pedido__09BA1430FB90EFDF");
 
             entity.ToTable("Pedido");
 

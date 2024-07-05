@@ -3,5 +3,69 @@
     // Mantenga el puntero para ver las descripciones de los existentes atributos.
     // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ProyectoaApplication",
+            "request": "launch",
+            "mainClass": "idat.edu.pe.proyectoa.ProyectoaApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Evc1Application",
+            "request": "launch",
+            "mainClass": "com.idat.evc1.Evc1Application",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Evc1Application",
+            "request": "launch",
+            "mainClass": "com.idat.evc1.Evc1Application",
+            "projectName": "evc1"
+        },
+        {
+            "type": "java",
+            "name": "ProyectoaApplication",
+            "request": "launch",
+            "mainClass": "idat.edu.pe.proyectoa.ProyectoaApplication",
+            "projectName": "proyectoa"
+        },
+        {
+            "type": "java",
+            "name": "Proyecto7Application",
+            "request": "launch",
+            "mainClass": "idat.edu.pe.proyecto7.Proyecto7Application",
+            "projectName": "proyecto7"
+        },
+        {
+            "type": "java",
+            "name": "FormularioAlumno",
+            "request": "launch",
+            "mainClass": "com.Proyectosjava.FormularioAlumno",
+            "projectName": "Proyecto"
+        },
+        {
+            "type": "java",
+            "name": "DemoApplication",
+            "request": "launch",
+            "mainClass": "idat.com.demo.DemoApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "DemoApplication",
+            "request": "launch",
+            "mainClass": "com.example.demo.DemoApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "DemoApplication",
+            "request": "launch",
+            "mainClass": "com.example.demo.DemoApplication",
+            "projectName": "demo"
+        }
+    ]
 }

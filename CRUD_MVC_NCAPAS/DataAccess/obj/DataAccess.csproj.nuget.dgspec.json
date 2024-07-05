@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\gerik\\Escritorio\\Proyectos\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\gerik\\Escritorio\\Proyectos\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\gerik\\Escritorio\\Proyectos\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\ErikG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\CRUD_MVC_NCAPAS\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ErikG\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

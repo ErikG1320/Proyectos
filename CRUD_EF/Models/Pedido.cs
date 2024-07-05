@@ -9,7 +9,7 @@ public partial class Pedido
 
     public string? Descripcion { get; set; }
 
-    public DateTime FechaPedido { get; set; }
+    public DateTime? FechaPedido { get; set; }
 
     public int ClienteId { get; set; }
 

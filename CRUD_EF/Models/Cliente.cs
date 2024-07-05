@@ -5,7 +5,7 @@ namespace CRUD_EF.Models;
 
 public partial class Cliente
 {
-    public int Clienteid { get; set; }
+    public int ClienteId { get; set; }
 
     public string Nombre { get; set; } = null!;
 

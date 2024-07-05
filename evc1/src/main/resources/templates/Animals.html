@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Pagina de animales</h1>
+        <table class="table table-active table-borderless">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Especie</th>
+                    <th scope="col">Edad</th>
+                    <th scope="col">Color</th>
+                    <th scope="col">Raza</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="a: ${Animals}">
+                    <td scope="row">1</td>
+                    <td th:text="${a.nombre}"></td>
+                    <td th:text="${a.especie}"></td>
+                    <td th:text="${a.edad}"></td>
+                    <td th:text="${a.color}"></td>
+                    <td th:text="${a.raza}"></td>
+                </tr>
+                <tr>
+                    <td scope="row"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

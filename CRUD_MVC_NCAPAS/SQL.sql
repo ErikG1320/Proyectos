@@ -5,8 +5,9 @@ Create table Productos(
     nombre varchar(100) not null,
     marca varchar(100) not null,
     cantidad int not null,
-    precio float not null,
+    precio DECIMAL (10,2) not null,
     descripcion varchar(255) not null,
     fecha date not null,
     PRIMARY KEY(id)
 )
+DROP TABLE Productos;

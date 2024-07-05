@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_EF\\CRUD_EF.csproj": {}
+    "C:\\Users\\gerik\\Escritorio\\Proyectos\\CRUD_EF\\CRUD_EF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_EF\\CRUD_EF.csproj": {
+    "C:\\Users\\gerik\\Escritorio\\Proyectos\\CRUD_EF\\CRUD_EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_EF\\CRUD_EF.csproj",
+        "projectUniqueName": "C:\\Users\\gerik\\Escritorio\\Proyectos\\CRUD_EF\\CRUD_EF.csproj",
         "projectName": "CRUD_EF",
-        "projectPath": "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_EF\\CRUD_EF.csproj",
-        "packagesPath": "C:\\Users\\ErikG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ErikG\\Desktop\\Proyectos\\CRUD_EF\\obj\\",
+        "projectPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\CRUD_EF\\CRUD_EF.csproj",
+        "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\CRUD_EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ErikG\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,10 +43,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.6, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -59,6 +52,16 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
