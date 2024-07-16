@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PracticaApplication",
+            "request": "launch",
+            "mainClass": "com.crud.practica.PracticaApplication",
+            "projectName": "practica"
+        },
+        {
+            "type": "java",
+            "name": "CrudApplication",
+            "request": "launch",
+            "mainClass": "com.crud.crud.CrudApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "CrudApplication",
+            "request": "launch",
+            "mainClass": "com.app.crud.crud.CrudApplication",
+            "projectName": "crud"
+        },
+        {
+            "type": "java",
+            "name": "Crud6Application",
+            "request": "launch",
+            "mainClass": "idat.edu.pe.crud6.Crud6Application",
+            "projectName": "crud6"
+        },
+        {
+            "type": "java",
             "name": "ProyectoaApplication",
             "request": "launch",
             "mainClass": "idat.edu.pe.proyectoa.ProyectoaApplication",

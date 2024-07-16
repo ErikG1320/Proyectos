@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using BusinessLayer;
 using DataAccess;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+// using Microsoft.Extensions.Logging;
 
 namespace PresentationLayer.Controllers
 {
@@ -16,12 +16,12 @@ namespace PresentationLayer.Controllers
         private readonly ClinicaService _ClinicaService = clinicaService;
         public IActionResult ConsultarCitasPorMedicoYAnio(string codmed, int anio)
         {
-            List<Cita> citas = _ClinicaService.ConsultarCitasPorMedicoYAnio(codmed, anio);
-            return View(citas);
+            List<Procedure> Consultas = _ClinicaService.ConsultarCitasPorMedicoYAnio(codmed, anio);
+            return View(Consultas);
         }
-        public IactionResult ListarCitas ()
+        public IActionResult ListarCitas ()
         {
-            List<Cita> citas = _ClinicaService.ConsultarCitas();
+            List<Cita> citas = _ClinicaService.GetAllCita();
             return View(citas);
         }
 

@@ -7839,17 +7839,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gerik\\.nuget\\packages\\": {}
+    "C:\\Users\\gerik\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gerik\\Escritorio\\Proyectos\\CRUD_EF\\CRUD_EF.csproj",
+      "projectUniqueName": "c:\\Users\\gerik\\Escritorio\\Proyectos\\CRUD_EF\\CRUD_EF.csproj",
       "projectName": "CRUD_EF",
-      "projectPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\CRUD_EF\\CRUD_EF.csproj",
+      "projectPath": "c:\\Users\\gerik\\Escritorio\\Proyectos\\CRUD_EF\\CRUD_EF.csproj",
       "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\CRUD_EF\\obj\\",
+      "outputPath": "c:\\Users\\gerik\\Escritorio\\Proyectos\\CRUD_EF\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],

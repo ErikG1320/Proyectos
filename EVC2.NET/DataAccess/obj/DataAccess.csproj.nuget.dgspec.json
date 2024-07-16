@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\EVC2.NET\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],

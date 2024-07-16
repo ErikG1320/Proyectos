@@ -13,7 +13,7 @@ namespace BusinessLayer
         {
             _clinicaData = new ClinicaData(connectionString);
         }
-        public List<Cita> ConsultarCitasPorMedicoYAnio(string codmed, int anio)
+        public List<Procedure> ConsultarCitasPorMedicoYAnio(string codmed, int anio)
         {
             return _clinicaData.ConsultarCitasPorMedicoYAnio(codmed, anio);
         }

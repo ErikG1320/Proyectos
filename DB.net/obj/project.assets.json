@@ -3778,17 +3778,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gerik\\.nuget\\packages\\": {}
+    "C:\\Users\\gerik\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gerik\\Escritorio\\Proyectos\\DB.net\\DB.net.csproj",
+      "projectUniqueName": "c:\\Users\\gerik\\Escritorio\\Proyectos\\DB.net\\DB.net.csproj",
       "projectName": "DB.net",
-      "projectPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\DB.net\\DB.net.csproj",
+      "projectPath": "c:\\Users\\gerik\\Escritorio\\Proyectos\\DB.net\\DB.net.csproj",
       "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\DB.net\\obj\\",
+      "outputPath": "c:\\Users\\gerik\\Escritorio\\Proyectos\\DB.net\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],

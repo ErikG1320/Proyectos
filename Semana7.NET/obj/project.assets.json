@@ -4554,17 +4554,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gerik\\.nuget\\packages\\": {}
+    "C:\\Users\\gerik\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gerik\\Escritorio\\Proyectos\\Semana7.NET\\Semana7.NET.csproj",
+      "projectUniqueName": "c:\\Users\\gerik\\Escritorio\\Proyectos\\Semana7.NET\\Semana7.NET.csproj",
       "projectName": "Semana7.NET",
-      "projectPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\Semana7.NET\\Semana7.NET.csproj",
+      "projectPath": "c:\\Users\\gerik\\Escritorio\\Proyectos\\Semana7.NET\\Semana7.NET.csproj",
       "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\Semana7.NET\\obj\\",
+      "outputPath": "c:\\Users\\gerik\\Escritorio\\Proyectos\\Semana7.NET\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
