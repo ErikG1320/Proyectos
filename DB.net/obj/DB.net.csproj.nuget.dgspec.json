@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gerik\\Escritorio\\Proyectos\\DB.net\\DB.net.csproj": {}
+    "C:\\Users\\gerik\\Desktop\\Proyectos\\DB.net\\DB.net.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gerik\\Escritorio\\Proyectos\\DB.net\\DB.net.csproj": {
+    "C:\\Users\\gerik\\Desktop\\Proyectos\\DB.net\\DB.net.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gerik\\Escritorio\\Proyectos\\DB.net\\DB.net.csproj",
+        "projectUniqueName": "C:\\Users\\gerik\\Desktop\\Proyectos\\DB.net\\DB.net.csproj",
         "projectName": "DB.net",
-        "projectPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\DB.net\\DB.net.csproj",
+        "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\DB.net\\DB.net.csproj",
         "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\DB.net\\obj\\",
+        "outputPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\DB.net\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -80,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

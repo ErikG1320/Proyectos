@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qshYjHdp004=",
+  "dgSpecHash": "enCeY6aObUA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\Semana7.NET\\Semana7.NET.csproj",
+  "projectFilePath": "C:\\Users\\gerik\\Desktop\\Proyectos\\Semana7.NET\\Semana7.NET.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gerik\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\gerik\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

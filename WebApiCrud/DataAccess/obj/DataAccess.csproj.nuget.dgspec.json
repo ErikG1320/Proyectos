@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gerik\\Escritorio\\Proyectos\\WebApiCrud\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\gerik\\Desktop\\Proyectos\\WebApiCrud\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gerik\\Escritorio\\Proyectos\\WebApiCrud\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\gerik\\Desktop\\Proyectos\\WebApiCrud\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gerik\\Escritorio\\Proyectos\\WebApiCrud\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\gerik\\Desktop\\Proyectos\\WebApiCrud\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\WebApiCrud\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\WebApiCrud\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\WebApiCrud\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\WebApiCrud\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -67,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

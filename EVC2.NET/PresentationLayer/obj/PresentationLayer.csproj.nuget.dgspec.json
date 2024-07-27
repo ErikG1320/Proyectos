@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gerik\\Escritorio\\Proyectos\\EVC2.NET\\PresentationLayer\\PresentationLayer.csproj": {}
+    "C:\\Users\\gerik\\Desktop\\Proyectos\\EVC2.NET\\PresentationLayer\\PresentationLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gerik\\Escritorio\\Proyectos\\EVC2.NET\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\gerik\\Desktop\\Proyectos\\EVC2.NET\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gerik\\Escritorio\\Proyectos\\EVC2.NET\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\gerik\\Desktop\\Proyectos\\EVC2.NET\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\EVC2.NET\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\EVC2.NET\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\EVC2.NET\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\EVC2.NET\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -29,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\gerik\\Escritorio\\Proyectos\\EVC2.NET\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\EVC2.NET\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\gerik\\Desktop\\Proyectos\\EVC2.NET\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\EVC2.NET\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -65,22 +62,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\gerik\\Escritorio\\Proyectos\\EVC2.NET\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\gerik\\Desktop\\Proyectos\\EVC2.NET\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gerik\\Escritorio\\Proyectos\\EVC2.NET\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\gerik\\Desktop\\Proyectos\\EVC2.NET\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\EVC2.NET\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\EVC2.NET\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\EVC2.NET\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\EVC2.NET\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -142,22 +136,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\gerik\\Escritorio\\Proyectos\\EVC2.NET\\PresentationLayer\\PresentationLayer.csproj": {
+    "C:\\Users\\gerik\\Desktop\\Proyectos\\EVC2.NET\\PresentationLayer\\PresentationLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gerik\\Escritorio\\Proyectos\\EVC2.NET\\PresentationLayer\\PresentationLayer.csproj",
+        "projectUniqueName": "C:\\Users\\gerik\\Desktop\\Proyectos\\EVC2.NET\\PresentationLayer\\PresentationLayer.csproj",
         "projectName": "PresentationLayer",
-        "projectPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\EVC2.NET\\PresentationLayer\\PresentationLayer.csproj",
+        "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\EVC2.NET\\PresentationLayer\\PresentationLayer.csproj",
         "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\EVC2.NET\\PresentationLayer\\obj\\",
+        "outputPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\EVC2.NET\\PresentationLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -171,11 +162,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\gerik\\Escritorio\\Proyectos\\EVC2.NET\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\EVC2.NET\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\gerik\\Desktop\\Proyectos\\EVC2.NET\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\EVC2.NET\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "C:\\Users\\gerik\\Escritorio\\Proyectos\\EVC2.NET\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\EVC2.NET\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\gerik\\Desktop\\Proyectos\\EVC2.NET\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\EVC2.NET\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -231,7 +222,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

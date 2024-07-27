@@ -4554,21 +4554,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gerik\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\gerik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\gerik\\Escritorio\\Proyectos\\Semana7.NET\\Semana7.NET.csproj",
+      "projectUniqueName": "C:\\Users\\gerik\\Desktop\\Proyectos\\Semana7.NET\\Semana7.NET.csproj",
       "projectName": "Semana7.NET",
-      "projectPath": "c:\\Users\\gerik\\Escritorio\\Proyectos\\Semana7.NET\\Semana7.NET.csproj",
+      "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\Semana7.NET\\Semana7.NET.csproj",
       "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\gerik\\Escritorio\\Proyectos\\Semana7.NET\\obj\\",
+      "outputPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\Semana7.NET\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
@@ -4637,7 +4633,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gerik\\Escritorio\\Proyectos\\Api-Tienda-Y\\CrudWebTienda\\CrudWebTienda.csproj": {}
+    "C:\\Users\\gerik\\Desktop\\Proyectos\\API-Tienda-Y\\CrudWebTienda\\CrudWebTienda.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gerik\\Escritorio\\Proyectos\\Api-Tienda-Y\\CrudWebTienda\\CrudWebTienda.csproj": {
+    "C:\\Users\\gerik\\Desktop\\Proyectos\\API-Tienda-Y\\CrudWebTienda\\CrudWebTienda.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gerik\\Escritorio\\Proyectos\\Api-Tienda-Y\\CrudWebTienda\\CrudWebTienda.csproj",
+        "projectUniqueName": "C:\\Users\\gerik\\Desktop\\Proyectos\\API-Tienda-Y\\CrudWebTienda\\CrudWebTienda.csproj",
         "projectName": "CrudWebTienda",
-        "projectPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\Api-Tienda-Y\\CrudWebTienda\\CrudWebTienda.csproj",
+        "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\API-Tienda-Y\\CrudWebTienda\\CrudWebTienda.csproj",
         "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\Api-Tienda-Y\\CrudWebTienda\\obj\\",
+        "outputPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\API-Tienda-Y\\CrudWebTienda\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -48,7 +45,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -59,6 +56,8 @@
               "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.7, )"
             },
@@ -86,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

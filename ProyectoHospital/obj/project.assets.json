@@ -7840,21 +7840,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gerik\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\gerik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\gerik\\Escritorio\\Proyectos\\ProyectoHospital\\ProyectoHospital.csproj",
+      "projectUniqueName": "C:\\Users\\gerik\\Desktop\\Proyectos\\ProyectoHospital\\ProyectoHospital.csproj",
       "projectName": "ProyectoHospital",
-      "projectPath": "c:\\Users\\gerik\\Escritorio\\Proyectos\\ProyectoHospital\\ProyectoHospital.csproj",
+      "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\ProyectoHospital\\ProyectoHospital.csproj",
       "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\gerik\\Escritorio\\Proyectos\\ProyectoHospital\\obj\\",
+      "outputPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\ProyectoHospital\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
@@ -7929,7 +7925,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

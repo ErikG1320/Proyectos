@@ -7839,21 +7839,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gerik\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\gerik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\gerik\\Escritorio\\Proyectos\\CRUD_EF\\CRUD_EF.csproj",
+      "projectUniqueName": "C:\\Users\\gerik\\Desktop\\Proyectos\\CRUD_EF\\CRUD_EF.csproj",
       "projectName": "CRUD_EF",
-      "projectPath": "c:\\Users\\gerik\\Escritorio\\Proyectos\\CRUD_EF\\CRUD_EF.csproj",
+      "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\CRUD_EF\\CRUD_EF.csproj",
       "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\gerik\\Escritorio\\Proyectos\\CRUD_EF\\obj\\",
+      "outputPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\CRUD_EF\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
@@ -7924,7 +7920,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -7864,21 +7864,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gerik\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\gerik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\gerik\\Escritorio\\Proyectos\\MVC_EF_SP\\MVC_EF_SP.csproj",
+      "projectUniqueName": "C:\\Users\\gerik\\Desktop\\Proyectos\\MVC_EF_SP\\MVC_EF_SP.csproj",
       "projectName": "MVC_EF_SP",
-      "projectPath": "c:\\Users\\gerik\\Escritorio\\Proyectos\\MVC_EF_SP\\MVC_EF_SP.csproj",
+      "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\MVC_EF_SP\\MVC_EF_SP.csproj",
       "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\gerik\\Escritorio\\Proyectos\\MVC_EF_SP\\obj\\",
+      "outputPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\MVC_EF_SP\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
@@ -7959,7 +7955,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

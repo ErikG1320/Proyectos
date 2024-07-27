@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O9QfiWsM93g=",
+  "dgSpecHash": "dUZtksY+ffU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\ProyectoHospital\\ProyectoHospital.csproj",
+  "projectFilePath": "C:\\Users\\gerik\\Desktop\\Proyectos\\ProyectoHospital\\ProyectoHospital.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gerik\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\gerik\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

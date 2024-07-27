@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gerik\\Escritorio\\Proyectos\\WebApiCrud\\PresentationLayerCrudApi\\PresentationLayerCrudApi.csproj": {}
+    "C:\\Users\\gerik\\Desktop\\Proyectos\\WebApiCrud\\PresentationLayerCrudApi\\PresentationLayerCrudApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gerik\\Escritorio\\Proyectos\\WebApiCrud\\PresentationLayerCrudApi\\PresentationLayerCrudApi.csproj": {
+    "C:\\Users\\gerik\\Desktop\\Proyectos\\WebApiCrud\\PresentationLayerCrudApi\\PresentationLayerCrudApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gerik\\Escritorio\\Proyectos\\WebApiCrud\\PresentationLayerCrudApi\\PresentationLayerCrudApi.csproj",
+        "projectUniqueName": "C:\\Users\\gerik\\Desktop\\Proyectos\\WebApiCrud\\PresentationLayerCrudApi\\PresentationLayerCrudApi.csproj",
         "projectName": "PresentationLayerCrudApi",
-        "projectPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\WebApiCrud\\PresentationLayerCrudApi\\PresentationLayerCrudApi.csproj",
+        "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\WebApiCrud\\PresentationLayerCrudApi\\PresentationLayerCrudApi.csproj",
         "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gerik\\Escritorio\\Proyectos\\WebApiCrud\\PresentationLayerCrudApi\\obj\\",
+        "outputPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\WebApiCrud\\PresentationLayerCrudApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -90,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
