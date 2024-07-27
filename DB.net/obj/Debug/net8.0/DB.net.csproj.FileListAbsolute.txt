@@ -1,9 +1,0 @@
-C:\Users\ErikG\Desktop\Proyectos\DB.net\obj\Debug\net8.0\DB.net.csproj.AssemblyReference.cache
-C:\Users\ErikG\Desktop\Proyectos\DB.net\obj\Debug\net8.0\DB.net.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ErikG\Desktop\Proyectos\DB.net\obj\Debug\net8.0\DB.net.AssemblyInfoInputs.cache
-C:\Users\ErikG\Desktop\Proyectos\DB.net\obj\Debug\net8.0\DB.net.AssemblyInfo.cs
-C:\Users\ErikG\Desktop\Proyectos\DB.net\obj\Debug\net8.0\DB.net.csproj.CoreCompileInputs.cache
-C:\Users\ErikG\Desktop\Proyectos\DB.net\obj\Debug\net8.0\DB.net.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ErikG\Desktop\Proyectos\DB.net\obj\Debug\net8.0\DB.net.RazorAssemblyInfo.cache
-C:\Users\ErikG\Desktop\Proyectos\DB.net\obj\Debug\net8.0\DB.net.RazorAssemblyInfo.cs
-C:\Users\ErikG\Desktop\Proyectos\DB.net\obj\Debug\net8.0\DB.net.sourcelink.json
