@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UniversidadApplication",
+            "request": "launch",
+            "mainClass": "com.login.universidad.UniversidadApplication",
+            "projectName": "universidad"
+        },
+        {
+            "type": "java",
             "name": "PracticaApplication",
             "request": "launch",
             "mainClass": "com.crud.practica.PracticaApplication",
