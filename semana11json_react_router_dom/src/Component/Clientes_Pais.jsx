@@ -27,7 +27,7 @@ const Clientes_Pais = () => {
     return (
         <div>
             <p>
-                Seleccione País: <select className="form-select"    value={pais} onChange={handlerpais}>
+                Seleccione País: <select className="form-select" value={pais} onChange={handlerpais}>
                     {paisesSelect} 
                 </select>
             </p>
