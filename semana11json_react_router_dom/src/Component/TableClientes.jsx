@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const TableClientes = (props) => {
     // Recuperar las variables 'props' enviadas desde el componente padre
@@ -6,6 +7,7 @@ const TableClientes = (props) => {
 
     return (
         <div>
+            <Link to="/" className="btn btn-primary">Inicio</Link>
             <h2>{titulo}</h2>
             <table className='table table-striped'>
                 <thead className='table-dark'>

@@ -35,6 +35,15 @@ public class Estudiante {
 
     }
     
+    // Constructor sin id
+    public Estudiante(String nombrecompleto, int edad, int telefono, String email, String grado)
+    {
+        this.Nombrecompleto = nombrecompleto;
+        this.Edad = edad;
+        this.Telefono = telefono;
+        this.Email = email;
+        this.Grado = grado;
+    }
     // Constructor con todos los atributos
     public Estudiante(Long id, String nombrecompleto, int edad, int telefono, String email, String grado)
     {

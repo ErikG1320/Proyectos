@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import TableClientes from './TableClientes';
 import Data from '../DataJson/dataclientes2024.json';
+import { Link } from 'react-router-dom';
 
 const Clientes_Pais = () => {
     const [pais, setPais] = useState('');
@@ -26,6 +27,7 @@ const Clientes_Pais = () => {
 
     return (
         <div>
+            <Link to="/" className="btn btn-primary">Inicio</Link>
             <p>
                 Seleccione País: <select className="form-select" value={pais} onChange={handlerpais}>
                     {paisesSelect} 
