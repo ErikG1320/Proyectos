@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gerik\\Desktop\\Proyectos\\ClienteAPI_Gaspar\\ClienteAPI_Gaspar.csproj": {}
+    "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\ClienteAPI_Gaspar\\ClienteAPI_Gaspar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gerik\\Desktop\\Proyectos\\ClienteAPI_Gaspar\\ClienteAPI_Gaspar.csproj": {
+    "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\ClienteAPI_Gaspar\\ClienteAPI_Gaspar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gerik\\Desktop\\Proyectos\\ClienteAPI_Gaspar\\ClienteAPI_Gaspar.csproj",
+        "projectUniqueName": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\ClienteAPI_Gaspar\\ClienteAPI_Gaspar.csproj",
         "projectName": "ClienteAPI_Gaspar",
-        "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\ClienteAPI_Gaspar\\ClienteAPI_Gaspar.csproj",
-        "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\ClienteAPI_Gaspar\\obj\\",
+        "projectPath": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\ClienteAPI_Gaspar\\ClienteAPI_Gaspar.csproj",
+        "packagesPath": "C:\\Users\\Dev Erik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\ClienteAPI_Gaspar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Dev Erik\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

@@ -1,4 +1,5 @@
 package com.Proyectosjava;
+
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import java.awt.GridBagConstraints;
@@ -7,6 +8,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 import javax.swing.JButton;
@@ -28,6 +30,7 @@ public class FormularioAlumno extends JFrame implements ActionListener {
     private JComboBox<String> cbGenero;
     private JTable tablaAlumnos;
     private DefaultTableModel modeloTabla;
+    private Connection connection;
 
     public FormularioAlumno() {
         setTitle("Insertar Alumno");
@@ -87,16 +90,12 @@ public class FormularioAlumno extends JFrame implements ActionListener {
 
         // Botones
         JButton btnLimpiar = new JButton("Limpiar");
-        JButton btnnuevo = new JButton("Nuevo");
         JButton btnGuardar = new JButton("Guardar");
-        JButton btnModificar = new JButton("Modificar");
         JButton btnEliminar = new JButton("Eliminar");
         JButton btnSalir = new JButton("Salir");
         JPanel panelBotones = new JPanel(new FlowLayout());
         panelBotones.add(btnLimpiar);
-        panelBotones.add(btnnuevo);
         panelBotones.add(btnGuardar);
-        panelBotones.add(btnModificar);
         panelBotones.add(btnEliminar);
         panelBotones.add(btnSalir);
 
@@ -126,41 +125,46 @@ public class FormularioAlumno extends JFrame implements ActionListener {
     }
 
     private void connectToDatabase() {
-        String url = "jdbc:mysql://localhost:7070/proyecto";
+        String url = "jdbc:mysql://localhost:2413/Formulario de matricula";
         String user = "root";
-        String password = "60797472";
-        
+        String password = "109Inuyash@";
+
         try {
-            Connection connection = DriverManager.getConnection(url, user, password);
-            JOptionPane.showMessageDialog(null, "Conexion exitosa con la base de datos");
+            connection = DriverManager.getConnection(url, user, password);
+            JOptionPane.showMessageDialog(null, "Conexión exitosa con la base de datos");
         } catch (SQLException e) {
-            JOptionPane.showMessageDialog(null, "Error al conectar con la base de datos " + e, "Error ", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Error al conectar con la base de datos: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
         }
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
         // Manejar eventos de los botones
-        if (e.getActionCommand().equals("Limpiar")) {
-            // Lógica para limpiar los campos del formulario
-            txtMatricula.setText("");
-            txtNombres.setText("");
-            txtApellidoPaterno.setText("");
-            txtApellidoMaterno.setText("");
-            txtTelefono.setText("");
-            txtDireccion.setText("");
-            spEdad.setValue(18);
-            cbGenero.setSelectedIndex(0);
-        } else if (e.getActionCommand().equals("Guardar")) {
-            // Lógica para guardar el alumno en la base de datos
-            guardarAlumno();
-        } else if (e.getActionCommand().equals("Eliminar")) {
-            // Lógica para eliminar el alumno seleccionado de la base de datos
-            eliminarAlumno();
-        } else if (e.getActionCommand().equals("Salir")) {
-            // Lógica para salir de la aplicación
-            System.exit(0);
+        switch (e.getActionCommand()) {
+            case "Limpiar":
+                limpiarCampos();
+                break;
+            case "Guardar":
+                guardarAlumno();
+                break;
+            case "Eliminar":
+                eliminarAlumno();
+                break;
+            case "Salir":
+                System.exit(0);
+                break;
         }
+    }
+
+    private void limpiarCampos() {
+        txtMatricula.setText("");
+        txtNombres.setText("");
+        txtApellidoPaterno.setText("");
+        txtApellidoMaterno.setText("");
+        txtTelefono.setText("");
+        txtDireccion.setText("");
+        spEdad.setValue(18);
+        cbGenero.setSelectedIndex(0);
     }
 
     private void guardarAlumno() {
@@ -172,16 +176,51 @@ public class FormularioAlumno extends JFrame implements ActionListener {
         String direccion = txtDireccion.getText();
         int edad = (int) spEdad.getValue();
         String genero = (String) cbGenero.getSelectedItem();
-        String sql = "INSERT INTO alumnos (matricula, nombres, apellido_paterno, apellido_materno, edad, genero, telefono, direccion) VALUES (?,?,?,?,?,?,?,?)";
 
+        String sql = "INSERT INTO alumnos (matricula, nombres, apellido_paterno, apellido_materno, edad, genero, telefono, direccion) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 
+        try (PreparedStatement statement = connection.prepareStatement(sql)) {
+            statement.setString(1, matricula);
+            statement.setString(2, nombres);
+            statement.setString(3, apellidoPaterno);
+            statement.setString(4, apellidoMaterno);
+            statement.setInt(5, edad);
+            statement.setString(6, genero);
+            statement.setString(7, telefono);
+            statement.setString(8, direccion);
+
+            int rowsInserted = statement.executeUpdate();
+            if (rowsInserted > 0) {
+                JOptionPane.showMessageDialog(this, "Alumno guardado correctamente");
+                limpiarCampos();
+                mostrarAlumnos();
+            }
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(this, "Error al guardar alumno: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+        }
     }
 
     private void eliminarAlumno() {
-        // Lógica para eliminar el alumno seleccionado de la base de datos
+        String matricula = txtMatricula.getText();
+        String sql = "DELETE FROM alumnos WHERE matricula = ?";
+
+        try (PreparedStatement statement = connection.prepareStatement(sql)) {
+            statement.setString(1, matricula);
+            int rowsDeleted = statement.executeUpdate();
+            if (rowsDeleted > 0) {
+                JOptionPane.showMessageDialog(this, "Alumno eliminado correctamente");
+                limpiarCampos();
+                mostrarAlumnos();
+            } else {
+                JOptionPane.showMessageDialog(this, "No se encontró ningún alumno con la matrícula especificada", "Error", JOptionPane.INFORMATION_MESSAGE);
+            }
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(this, "Error al eliminar alumno: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+        }
     }
 
-    public void setSpEdad(JSpinner spEdad) {
-        this.spEdad = spEdad;
+    private void mostrarAlumnos() {
+        // Lógica para mostrar alumnos en la tabla
+        // Puedes implementar la lógica para cargar los alumnos de la base de datos y mostrarlos en la tabla
     }
 }

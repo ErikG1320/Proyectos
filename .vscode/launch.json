@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Proyecto",
+            "request": "launch",
+            "mainClass": "com.Proyectosjava.Proyecto",
+            "projectName": "Proyecto"
+        },
+        {
+            "type": "java",
+            "name": "Crud",
+            "request": "launch",
+            "mainClass": "com.Proyectosjava.Crud",
+            "projectName": "Proyecto"
+        },
+        {
+            "type": "java",
             "name": "UniversidadApplication",
             "request": "launch",
             "mainClass": "com.login.universidad.UniversidadApplication",

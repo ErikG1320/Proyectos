@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\gerik\\.nuget\\packages\\": {}
+    "C:\\Users\\Dev Erik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gerik\\Desktop\\Proyectos\\asp.netEVC1\\asp.netEVC1.csproj",
+      "projectUniqueName": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\asp.netEVC1\\asp.netEVC1.csproj",
       "projectName": "asp.netEVC1",
-      "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\asp.netEVC1\\asp.netEVC1.csproj",
-      "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\asp.netEVC1\\obj\\",
+      "projectPath": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\asp.netEVC1\\asp.netEVC1.csproj",
+      "packagesPath": "C:\\Users\\Dev Erik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\asp.netEVC1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Dev Erik\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

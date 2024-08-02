@@ -1,15 +1,27 @@
 package com.Proyectosjava;
 
-import javax.swing.*;
-import javax.swing.table.DefaultTableModel;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.EventQueue;
+import java.awt.FlowLayout;
+import java.awt.GridLayout;
+import java.awt.Toolkit;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.JTextField;
+import javax.swing.table.DefaultTableModel;
 
 public class Crud {
     private JFrame frame;
@@ -17,19 +29,18 @@ public class Crud {
     private JTextField userField;
     private JPasswordField passwordField;
     private JTextField yearCreatedField;
-    private JTextField searchField; // Nuevo campo de texto para la búsqueda
+    private JTextField searchField; // Campo de texto para la búsqueda
+    private JTextField verificationField; // Campo de texto para verificación de datos
     private JTable table;
     private Connection connection;
 
     public static void main(String[] args) {
-        EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                try {
-                    Crud window = new Crud();
-                    window.frame.setVisible(true);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
+        EventQueue.invokeLater(() -> {
+            try {
+                Crud window = new Crud();
+                window.frame.setVisible(true);
+            } catch (Exception e) {
+                e.printStackTrace();
             }
         });
     }
@@ -47,7 +58,7 @@ public class Crud {
         frame.getContentPane().setLayout(new BorderLayout()); // Cambiado a BorderLayout para una mejor disposición de componentes
 
         JPanel panel = new JPanel();
-        panel.setLayout(new GridLayout(6, 2)); // Cambiado a GridLayout para organizar mejor los campos
+        panel.setLayout(new GridLayout(7, 2)); // Cambiado a GridLayout para organizar mejor los campos
 
         idField = new JTextField();
         idField.setColumns(10);
@@ -74,6 +85,11 @@ public class Crud {
         panel.add(new JLabel("Buscar por Usuario:"));
         panel.add(searchField);
 
+        verificationField = new JTextField();
+        verificationField.setColumns(10);
+        panel.add(new JLabel("Buscar por ID:"));
+        panel.add(verificationField);
+
         frame.getContentPane().add(panel, BorderLayout.NORTH); // Agregado el panel al contenedor del marco
 
         table = new JTable();
@@ -88,43 +104,23 @@ public class Crud {
         buttonPanel.setLayout(new FlowLayout()); // Cambiado a FlowLayout para organizar los botones en línea
 
         JButton btnGuardar = new JButton("Guardar");
-        btnGuardar.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                saveData();
-            }
-        });
+        btnGuardar.addActionListener(e -> saveData());
         buttonPanel.add(btnGuardar);
 
         JButton btnModificar = new JButton("Modificar");
-        btnModificar.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                updateData();
-            }
-        });
+        btnModificar.addActionListener(e -> updateData());
         buttonPanel.add(btnModificar);
 
         JButton btnEliminar = new JButton("Eliminar");
-        btnEliminar.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                deleteData();
-            }
-        });
+        btnEliminar.addActionListener(e -> deleteData());
         buttonPanel.add(btnEliminar);
 
         JButton btnBuscarUsuario = new JButton("Buscar por Usuario");
-        btnBuscarUsuario.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                searchByUser();
-            }
-        });
+        btnBuscarUsuario.addActionListener(e -> searchByUser());
         buttonPanel.add(btnBuscarUsuario);
 
         JButton btnBuscarId = new JButton("Buscar por ID");
-        btnBuscarId.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                searchById();
-            }
-        });
+        btnBuscarId.addActionListener(e -> searchById());
         buttonPanel.add(btnBuscarId);
 
         frame.getContentPane().add(buttonPanel, BorderLayout.SOUTH); // Agregado el panel de botones al contenedor del marco
@@ -135,13 +131,13 @@ public class Crud {
     }
 
     private void connectToDatabase() {
-        String url = "jdbc:mysql://localhost:8080/proyecto"; // Puerto 3306 por defecto para MySQL,pero puede ser modificado.
+        String url = "jdbc:mysql://localhost:3306/CrudJava"; // Asegúrate de que el puerto sea el correcto (3306 por defecto para MySQL)
         String user = "root";
-        String password = "60797472";
+        String password = "109Inuyash@";
 
         try {
             connection = DriverManager.getConnection(url, user, password);
-            JOptionPane.showMessageDialog(frame,"Conexion exitosa con la base de datos");
+            JOptionPane.showMessageDialog(frame, "Conexión exitosa con la base de datos");
         } catch (SQLException e) {
             e.printStackTrace();
             JOptionPane.showMessageDialog(frame, "Error al conectar con la base de datos", "Error", JOptionPane.ERROR_MESSAGE);
@@ -149,10 +145,8 @@ public class Crud {
     }
 
     private void showData() {
-        try {
-            String query = "SELECT * FROM Crudlist";
-            PreparedStatement statement = connection.prepareStatement(query);
-            ResultSet resultSet = statement.executeQuery();
+        try (PreparedStatement statement = connection.prepareStatement("SELECT * FROM Crudlist");
+             ResultSet resultSet = statement.executeQuery()) {
 
             DefaultTableModel model = (DefaultTableModel) table.getModel();
             model.setRowCount(0); // Limpiamos la tabla antes de cargar los nuevos datos
@@ -176,9 +170,7 @@ public class Crud {
         String contraseña = new String(passwordField.getPassword());
         String año = yearCreatedField.getText();
 
-        try {
-            String query = "INSERT INTO Crudlist (usuario, contraseña, año_de_creacion) VALUES (?, ?, ?)";
-            PreparedStatement statement = connection.prepareStatement(query);
+        try (PreparedStatement statement = connection.prepareStatement("INSERT INTO Crudlist (usuario, contraseña, año_de_creacion) VALUES (?, ?, ?)")) {
             statement.setString(1, usuario);
             statement.setString(2, contraseña);
             statement.setString(3, año);
@@ -200,9 +192,7 @@ public class Crud {
         String contraseña = new String(passwordField.getPassword());
         String año = yearCreatedField.getText();
 
-        try {
-            String query = "UPDATE Crudlist SET usuario=?, contraseña=?, año_de_creacion=? WHERE id=?";
-            PreparedStatement statement = connection.prepareStatement(query);
+        try (PreparedStatement statement = connection.prepareStatement("UPDATE Crudlist SET usuario=?, contraseña=?, año_de_creacion=? WHERE id=?")) {
             statement.setString(1, usuario);
             statement.setString(2, contraseña);
             statement.setString(3, año);
@@ -224,9 +214,7 @@ public class Crud {
     private void deleteData() {
         int id = Integer.parseInt(idField.getText());
 
-        try {
-            String query = "DELETE FROM Crudlist WHERE id=?";
-            PreparedStatement statement = connection.prepareStatement(query);
+        try (PreparedStatement statement = connection.prepareStatement("DELETE FROM Crudlist WHERE id=?")) {
             statement.setInt(1, id);
 
             int rowsDeleted = statement.executeUpdate();
@@ -244,59 +232,53 @@ public class Crud {
 
     private void searchByUser() {
         String searchTerm = searchField.getText();
-        try {
-            String query = "SELECT * FROM Crudlist WHERE usuario LIKE ?";
-            PreparedStatement statement = connection.prepareStatement(query);
+        try (PreparedStatement statement = connection.prepareStatement("SELECT * FROM Crudlist WHERE usuario LIKE ?")) {
             statement.setString(1, "%" + searchTerm + "%");
-            ResultSet resultSet = statement.executeQuery();
+            try (ResultSet resultSet = statement.executeQuery()) {
 
-            DefaultTableModel model = (DefaultTableModel) table.getModel();
-            model.setRowCount(0); // Limpiar la tabla antes de cargar los nuevos datos
+                DefaultTableModel model = (DefaultTableModel) table.getModel();
+                model.setRowCount(0); // Limpiar la tabla antes de cargar los nuevos datos
 
-            while (resultSet.next()) {
-                int id = resultSet.getInt("id");
-                String usuario = resultSet.getString("usuario");
-                String contraseña = resultSet.getString("contraseña");
-                String año = resultSet.getString("año_de_creacion");
+                while (resultSet.next()) {
+                    int id = resultSet.getInt("id");
+                    String usuario = resultSet.getString("usuario");
+                    String contraseña = resultSet.getString("contraseña");
+                    String año = resultSet.getString("año_de_creacion");
 
-                model.addRow(new Object[]{id, usuario, contraseña, año});
-            }
-
-            if (model.getRowCount() == 0) {
-                JOptionPane.showMessageDialog(frame, "No se encontraron resultados para la búsqueda", "Mensaje", JOptionPane.INFORMATION_MESSAGE);
+                    model.addRow(new Object[]{id, usuario, contraseña, año});
+                }
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            JOptionPane.showMessageDialog(frame, "Error al buscar datos en la base de datos", "Error", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(frame, "Error al buscar usuario en la base de datos", "Error", JOptionPane.ERROR_MESSAGE);
         }
+        searchField.setText(""); // Limpiar el campo de búsqueda
     }
 
     private void searchById() {
-        String searchTerm = searchField.getText();
-        try {
-            String query = "SELECT * FROM Crudlist WHERE id = ?";
-            PreparedStatement statement = connection.prepareStatement(query);
-            statement.setString(1, searchTerm);
-            ResultSet resultSet = statement.executeQuery();
+        int searchTerm = Integer.parseInt(verificationField.getText());
+        try (PreparedStatement statement = connection.prepareStatement("SELECT * FROM Crudlist WHERE id=?")) {
+            statement.setInt(1, searchTerm);
+            try (ResultSet resultSet = statement.executeQuery()) {
+                if (resultSet.next()) {
+                    int id = resultSet.getInt("id");
+                    String usuario = resultSet.getString("usuario");
+                    String contraseña = resultSet.getString("contraseña");
+                    String año = resultSet.getString("año_de_creacion");
 
-            DefaultTableModel model = (DefaultTableModel) table.getModel();
-            model.setRowCount(0); // Limpiamos la tabla antes de cargar los nuevos datos
-            while (resultSet.next()) {
-                int id = resultSet.getInt("id");
-                String usuario = resultSet.getString("usuario");
-                String contraseña = resultSet.getString("contraseña");
-                String año = resultSet.getString("año_de_creacion");
-
-                model.addRow(new Object[]{id, usuario, contraseña, año});
-            }
-
-            if (model.getRowCount() == 0) {
-                JOptionPane.showMessageDialog(frame, "No se encontraron resultados para la búsqueda", "Mensaje", JOptionPane.INFORMATION_MESSAGE);
+                    // Rellenar los campos con los datos encontrados
+                    idField.setText(String.valueOf(id));
+                    userField.setText(usuario);
+                    passwordField.setText(contraseña);
+                    yearCreatedField.setText(año);
+                } else {
+                    JOptionPane.showMessageDialog(frame, "No se encontró ningún registro con el ID proporcionado", "Mensaje", JOptionPane.INFORMATION_MESSAGE);
+                }
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            JOptionPane.showMessageDialog(frame, "Error al buscar datos en la base de datos", "Error", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(frame, "Error al buscar ID en la base de datos", "Error", JOptionPane.ERROR_MESSAGE);
         }
+        verificationField.setText(""); // Limpiar el campo de verificación
     }
 }
-

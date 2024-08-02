@@ -7864,19 +7864,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gerik\\.nuget\\packages\\": {}
+    "C:\\Users\\Dev Erik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gerik\\Desktop\\Proyectos\\MVC_EF_SP\\MVC_EF_SP.csproj",
+      "projectUniqueName": "c:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\MVC_EF_SP\\MVC_EF_SP.csproj",
       "projectName": "MVC_EF_SP",
-      "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\MVC_EF_SP\\MVC_EF_SP.csproj",
-      "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\MVC_EF_SP\\obj\\",
+      "projectPath": "c:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\MVC_EF_SP\\MVC_EF_SP.csproj",
+      "packagesPath": "C:\\Users\\Dev Erik\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\MVC_EF_SP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Dev Erik\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

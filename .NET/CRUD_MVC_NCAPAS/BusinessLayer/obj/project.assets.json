@@ -488,19 +488,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gerik\\.nuget\\packages\\": {}
+    "C:\\Users\\Dev Erik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gerik\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\CRUD_MVC_NCAPAS\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\BusinessLayer\\BusinessLayer.csproj",
-      "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\BusinessLayer\\obj\\",
+      "projectPath": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\CRUD_MVC_NCAPAS\\BusinessLayer\\BusinessLayer.csproj",
+      "packagesPath": "C:\\Users\\Dev Erik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\CRUD_MVC_NCAPAS\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Dev Erik\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -512,8 +512,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\gerik\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj"
             }
           }
         }

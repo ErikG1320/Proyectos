@@ -561,19 +561,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gerik\\.nuget\\packages\\": {}
+    "C:\\Users\\Dev Erik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gerik\\Desktop\\Proyectos\\WebApiCrud\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "c:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\WebApiCrud\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\WebApiCrud\\DataAccess\\DataAccess.csproj",
-      "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\WebApiCrud\\DataAccess\\obj\\",
+      "projectPath": "c:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\WebApiCrud\\DataAccess\\DataAccess.csproj",
+      "packagesPath": "C:\\Users\\Dev Erik\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\WebApiCrud\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Dev Erik\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

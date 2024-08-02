@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gerik\\Desktop\\Proyectos\\CRUD_EF\\CRUD_EF.csproj": {}
+    "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\CRUD_EF\\CRUD_EF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gerik\\Desktop\\Proyectos\\CRUD_EF\\CRUD_EF.csproj": {
+    "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\CRUD_EF\\CRUD_EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gerik\\Desktop\\Proyectos\\CRUD_EF\\CRUD_EF.csproj",
+        "projectUniqueName": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\CRUD_EF\\CRUD_EF.csproj",
         "projectName": "CRUD_EF",
-        "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\CRUD_EF\\CRUD_EF.csproj",
-        "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\CRUD_EF\\obj\\",
+        "projectPath": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\CRUD_EF\\CRUD_EF.csproj",
+        "packagesPath": "C:\\Users\\Dev Erik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\CRUD_EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Dev Erik\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

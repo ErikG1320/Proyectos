@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\gerik\\.nuget\\packages\\": {}
+    "C:\\Users\\Dev Erik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gerik\\Desktop\\Proyectos\\Pruebas.net\\Pruebas.net.csproj",
+      "projectUniqueName": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\Pruebas.net\\Pruebas.net.csproj",
       "projectName": "Pruebas.net",
-      "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\Pruebas.net\\Pruebas.net.csproj",
-      "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\Pruebas.net\\obj\\",
+      "projectPath": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\Pruebas.net\\Pruebas.net.csproj",
+      "packagesPath": "C:\\Users\\Dev Erik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\Pruebas.net\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Dev Erik\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gerik\\Desktop\\Proyectos\\WebApiCrud\\PresentationLayerCrudApi\\PresentationLayerCrudApi.csproj": {}
+    "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\WebApiCrud\\PresentationLayerCrudApi\\PresentationLayerCrudApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gerik\\Desktop\\Proyectos\\WebApiCrud\\PresentationLayerCrudApi\\PresentationLayerCrudApi.csproj": {
+    "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\WebApiCrud\\PresentationLayerCrudApi\\PresentationLayerCrudApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gerik\\Desktop\\Proyectos\\WebApiCrud\\PresentationLayerCrudApi\\PresentationLayerCrudApi.csproj",
+        "projectUniqueName": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\WebApiCrud\\PresentationLayerCrudApi\\PresentationLayerCrudApi.csproj",
         "projectName": "PresentationLayerCrudApi",
-        "projectPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\WebApiCrud\\PresentationLayerCrudApi\\PresentationLayerCrudApi.csproj",
-        "packagesPath": "C:\\Users\\gerik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gerik\\Desktop\\Proyectos\\WebApiCrud\\PresentationLayerCrudApi\\obj\\",
+        "projectPath": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\WebApiCrud\\PresentationLayerCrudApi\\PresentationLayerCrudApi.csproj",
+        "packagesPath": "C:\\Users\\Dev Erik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\WebApiCrud\\PresentationLayerCrudApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gerik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Dev Erik\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
