@@ -4560,11 +4560,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\ServicioWebApiGaspar\\ServicioWebApiGaspar.csproj",
+      "projectUniqueName": "c:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\ServicioWebApiGaspar\\ServicioWebApiGaspar.csproj",
       "projectName": "ServicioWebApiGaspar",
-      "projectPath": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\ServicioWebApiGaspar\\ServicioWebApiGaspar.csproj",
+      "projectPath": "c:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\ServicioWebApiGaspar\\ServicioWebApiGaspar.csproj",
       "packagesPath": "C:\\Users\\Dev Erik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\ServicioWebApiGaspar\\obj\\",
+      "outputPath": "c:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\ServicioWebApiGaspar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dev Erik\\AppData\\Roaming\\NuGet\\NuGet.Config"

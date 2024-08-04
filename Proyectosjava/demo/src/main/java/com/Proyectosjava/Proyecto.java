@@ -32,7 +32,7 @@ public class Proyecto {
     private JTextField userField;
     private JPasswordField passwordField;
     private Connection connection;
-    private boolean isFullScreen = false; // Estado de pantalla completa
+    // private boolean isFullScreen = false; // Estado de pantalla completa
 
     public static void main(String[] args) {
         EventQueue.invokeLater(() -> {
@@ -170,6 +170,7 @@ public class Proyecto {
             statement.setString(1, nombre);
             statement.setString(2, apellidos);
             statement.setString(3, usuario);
+            //Bcrypt para encriptacion de datos para contraseñas y no se almacenan en la base de datos como texto plano
             String hash = BCrypt.hashpw(contrasena, BCrypt.gensalt());
             statement.setString(4, hash);
             statement.setString(5, email);

@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "c:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj",
+      "projectPath": "c:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\CRUD_MVC_NCAPAS\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\Dev Erik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\CRUD_MVC_NCAPAS\\DataAccess\\obj\\",
+      "outputPath": "c:\\Users\\Dev Erik\\Desktop\\Proyectos\\.NET\\CRUD_MVC_NCAPAS\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dev Erik\\AppData\\Roaming\\NuGet\\NuGet.Config"
